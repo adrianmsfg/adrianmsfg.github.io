@@ -1,0 +1,84 @@
+body {
+    font-family: "Open Sans";
+    background: #ececec;
+    margin: 16px;
+}
+
+section {
+    display: flex;
+}
+
+section div {
+    background: #e4c3d5;
+    margin: 8px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #666;
+    transition: all 0.5s;
+}
+
+.cols-4 div {
+    height: 168px;
+}
+
+.cols-6,
+.cols-3,
+.cols-12 {
+    display: none;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+
+    body {
+        margin: 32px;
+    }
+
+    .cols-1 div {
+        height: 80px;
+    }
+
+    .cols-2 div,
+    .cols-3 div,
+    .cols-4 div {
+        height: 176px;
+    }
+
+
+    .cols-3,
+    .cols-6 {
+        display: flex;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .cols-2 div,
+    .cols-3 div {
+        height: 80px;
+    }
+
+    .cols-4 div,
+    .cols-6 div {
+            height: 200px;
+    }
+
+    .cols-12 {
+        display: flex;
+    }
+
+    .cols-12 div {
+        height: 88px;
+    }
+}
