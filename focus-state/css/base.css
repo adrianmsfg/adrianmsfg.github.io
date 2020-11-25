@@ -1,0 +1,106 @@
+@font-face {
+	font-family: MSM Primary;
+	src: local("MSMPrimary-Bold"), local("MSM Primary Bold"), url("fonts/MSMPrimary-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(//fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2) format('woff2'), url(//fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+body {
+    font-family: "Open Sans";
+    background: #ececec;
+    margin: 16px;
+}
+
+p {
+    padding: 2em;
+    width: 258px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.white {
+    background: #fff;
+}
+
+.white a {
+    color: #646664;
+}
+
+.purple {
+    background: #674186;
+    color: #fff;
+}
+
+.purple a,
+.mint a,
+.wavy a {
+    color: #fff;
+}
+
+.mint {
+    background: #359791;
+    color: #fff;
+}
+
+.wavy {
+    background: #674186 url("../img/wave-purple.svg") no-repeat;
+    background-size: cover;
+}
+
+
+.button {
+    appearance: none;
+    border: 1px solid #0070c9;
+    font-family: "Filson Soft";
+    font-size: 14px;
+    padding: 14px 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    display: block;
+    margin-top: 2em;
+}
+
+.button-color--normal {
+    background-color: #fff;
+    color: #0070c9;
+}
+
+.button-color--normal:hover {
+    border-color: #bd479a;
+    color: #bd479a
+}
+
+.button-color--normal:active {
+    border-color: #bd479a;
+    color: #bd479a
+}
+
+.button-color--primary {
+    background-color: #bd479a;
+    border-color: #bd479a;
+    color: #fff;
+}
+
+.button-color--primary:hover {
+    background-color: #a13A82;
+    border-color: #a13A82;
+}
+
+.button-color--primary:active {
+    background-color: #a13A82;
+    border-color: #a13A82;
+}
