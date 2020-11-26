@@ -45,6 +45,10 @@ a:hover {
     color: #fff;
 }
 
+.purple-20 {
+    background: #e0d9e7;
+}
+
 .purple a,
 .mint a,
 .wavy a {
@@ -64,43 +68,77 @@ a:hover {
 
 .button {
     appearance: none;
-    border: 1px solid #0070c9;
+    border: 0;
     font-family: "Filson Soft";
-    font-size: 14px;
-    padding: 14px 50px;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 14px 25px;
     border-radius: 25px;
     cursor: pointer;
     display: block;
     margin-top: 2em;
 }
 
+
 .button-color--normal {
-    background-color: #fff;
-    color: #0070c9;
+    background: #fff;
+    color: #bf4a8e;
 }
 
 .button-color--normal:hover {
-    border-color: #bd479a;
-    color: #bd479a
+    background: #f7f5f9;
+    text-decoration: underline;
 }
 
-.button-color--normal:active {
-    border-color: #bd479a;
-    color: #bd479a
+.button-color--normal:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #001438, 0 0 0 4px #fff;
 }
+
+
 
 .button-color--primary {
-    background-color: #bd479a;
-    border-color: #bd479a;
+    background: linear-gradient(90deg, #85679e, #bf4a8e);
     color: #fff;
 }
 
 .button-color--primary:hover {
-    background-color: #a13A82;
-    border-color: #a13A82;
+    background: #bf4a8e;
+    text-decoration: underline;
 }
 
-.button-color--primary:active {
-    background-color: #a13A82;
-    border-color: #a13A82;
+.button-color--primary:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #001438, 0 0 0 4px #fff;
+}
+
+
+.arrowlink {
+    margin-top: 2em;
+    display: inline-block;
+    color: #bf4a8e;
+    font-family: "Filson Soft";
+    font-weight: 600;
+    line-height: 16px;
+    padding: 5px 32px 3px 5px;
+    background: url(../img/arrow-link.svg) no-repeat 90% 6px;
+    border-radius: 25px;    
+}
+
+.arrowlink:hover {
+    text-decoration: none;
+    background-position: 100% 6px;
+}
+
+.arrowlink:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #001438;
+}
+
+.arrowlink-white {
+    background-image: url(../img/arrow-link-white.svg);
+}
+
+.arrowlink-white:focus {
+    box-shadow: 0 0 0 2px #fff;
 }
