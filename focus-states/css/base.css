@@ -36,7 +36,8 @@ a:hover {
     background: #fff;
 }
 
-.white a {
+.white a:first-of-type,
+.purple-20 a:first-of-type {
     color: #646664;
 }
 
