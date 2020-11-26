@@ -127,6 +127,23 @@ a:hover {
 }
 
 
+
+.button-color--primary-v2 {
+    background: linear-gradient(90deg, #85679e, #bf4a8e);
+    color: #fff;
+}
+
+.button-color--primary-v2:hover {
+    background: #9e2e6f;
+}
+
+.button-color--primary-v2:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #001438, 0 0 0 4px #fff;
+}
+
+
+
 .arrowlink {
     margin-top: 2em;
     display: inline-block;
