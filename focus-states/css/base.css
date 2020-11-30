@@ -88,7 +88,6 @@ a:hover {
 
 .button-color--normal:hover {
     background: #f7f5f9;
-    text-decoration: underline;
 }
 
 .button-color--normal:focus {
@@ -137,7 +136,6 @@ a:hover {
 
 .button-color--primary:hover {
     background: #bf4a8e;
-    text-decoration: underline;
 }
 
 .button-color--primary:focus {
