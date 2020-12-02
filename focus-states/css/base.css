@@ -185,6 +185,7 @@ a:hover {
     background-image: linear-gradient(90deg, #85679e, #bf4a8e);
     z-index: 1;
     outline: 0;
+    overflow: visible;
 }
 
 .button-color--primary-v3:not(.button-hollow)::before {
