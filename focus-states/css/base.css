@@ -32,6 +32,11 @@ a:hover {
     text-decoration: underline;
 }
 
+input {
+    display: block;
+    margin-top: 2em;
+}
+
 .white {
     background: #fff;
 }
