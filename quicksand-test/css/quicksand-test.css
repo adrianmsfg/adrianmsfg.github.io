@@ -1,0 +1,50 @@
+@font-face {
+	font-family: MSM Primary;
+	src: local("MSMPrimary-Bold"), local("MSM Primary Bold"), url("../fonts/MSMPrimary-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap
+}
+
+body {margin: 2em;}
+
+h1 {
+    font-size: 56px;
+}
+
+h1:not(.nograd) {
+    background-color: #674186;
+    background: -webkit-linear-gradient(#674186 0%, #bf4a8e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent;  
+}
+
+.prim {
+    font-family: "MSM Primary", "Arial Black", sans-serif;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;  
+}
+
+.quick {
+    font-family: 'Quicksand';
+    -webkit-font-smoothing: antialiased;
+}
+
+.aa {
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.shadow {
+    text-shadow: 1px 0 #674186;
+    color: #674186;
+    letter-spacing: 0.027em;
+}
+
+.stroke {
+    -webkit-text-stroke: 1px #674186;
+    color: #674186;
+    letter-spacing: 0.027em;
+}
