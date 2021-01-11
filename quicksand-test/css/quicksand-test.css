@@ -38,13 +38,13 @@ h1:not(.nograd) {
 }
 
 .shadow {
-    text-shadow: 1px 0 #674186;
+    text-shadow: 2px 0 #674186;
     color: #674186;
     letter-spacing: 0.027em;
 }
 
 .stroke {
-    -webkit-text-stroke: 1px #674186;
+    -webkit-text-stroke: 2px #674186;
     color: #674186;
     letter-spacing: 0.027em;
 }
